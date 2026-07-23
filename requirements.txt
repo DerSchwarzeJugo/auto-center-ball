@@ -1,0 +1,10 @@
+opencv-python-headless>=4.9
+numpy>=1.26
+ultralytics>=8.1
+
+# ultralytics pulls in torch. `pip install torch` gives the CPU-only build on
+# Windows. To use an NVIDIA GPU, install the CUDA build FIRST, matching your
+# driver's CUDA version (check with `nvidia-smi`), e.g. for CUDA 12.4:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# then `pip install -r requirements.txt`. Verify with:
+#   python -c "import torch; print(torch.cuda.is_available())"   # -> True
