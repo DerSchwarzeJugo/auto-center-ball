@@ -1,4 +1,4 @@
-# bct-motion-track
+# auto-center-ball
 
 Center a ball across a set of still photos and assemble them into a vertical (9:16) short-form clip.
 
